@@ -4,7 +4,7 @@ This repository is a minimal reproducer for
 [CMP-9545 – Resources on Web not loading because Cache Storage API is not supported everywhere](https://youtrack.jetbrains.com/issue/CMP-9545/CMP-Resources-on-Web-not-loading-because-Cache-Storage-API-is-not-supported-everywhere).
 
 ## Requirements
-- VS Code v1.107.0 installed (this is quite recent)
+- **VS Code v1.107.0** installed (this is quite recent)
 - The `code` command available on `PATH` (default after installation; on Linux it may need to be enabled manually)
 - Java 17 or newer
 - Gradle (wrapper included)
