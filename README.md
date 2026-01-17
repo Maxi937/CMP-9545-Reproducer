@@ -23,6 +23,10 @@ This repository is a minimal reproducer for
 
 5. A WebView panel opens and renders with missing resources.
 
+6. Web View Dev Tools will show the following error: **TypeError: Failed to execute 'put' on 'Cache': Request scheme 'vscode-webview' is unsupported**
+
+
+
 ## Notes
 - The kotlin-externals dependency provides Kotlin wrappers for the VS Code API.  
   Original credit belongs to Edoardo Luppi: https://github.com/lppedd/kotlin-externals  
