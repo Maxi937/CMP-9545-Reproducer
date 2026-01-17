@@ -3,8 +3,6 @@
 This repository is a minimal reproducer for  
 [CMP-9545 – Resources on Web not loading because Cache Storage API is not supported everywhere](https://youtrack.jetbrains.com/issue/CMP-9545/CMP-Resources-on-Web-not-loading-because-Cache-Storage-API-is-not-supported-everywhere).
 
-The project demonstrates a VS Code extension using Compose Multiplatform where a WebView panel fails to load resources due to Cache Storage API usage.
-
 ## Requirements
 - VS Code installed
 - The `code` command available on `PATH` (default after installation; on Linux it may need to be enabled manually)
@@ -15,7 +13,7 @@ The project demonstrates a VS Code extension using Compose Multiplatform where a
 
 1. Run the Gradle task: 
 ```bash
-./gradlew vscode:debugExtension
+./gradlew debugExtension
 ```
 2. Wait for the VS Code window to open.
 
